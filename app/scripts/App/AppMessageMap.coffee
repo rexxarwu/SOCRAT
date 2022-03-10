@@ -21,6 +21,7 @@ module.exports = class AppMessageMap
         'app_analysis_classification',
         'app_analysis_modeler'
         'app_analysis_dimReduction'
+        'socrat_analysis_MyModule'
       ]
       msgTo: 'type.inferAll'
       scopeTo: ['app_analysis_datalib']
@@ -39,6 +40,7 @@ module.exports = class AppMessageMap
         'app_analysis_classification',
         'app_analysis_modeler'
         'app_analysis_dimReduction'
+        'socrat_analysis_MyModule'
       ]
     ,
       msgFrom: 'data summary'
@@ -51,6 +53,7 @@ module.exports = class AppMessageMap
         'app_analysis_powercalc',
         'app_analysis_classification',
         'app_analysis_stats'
+        'socrat_analysis_MyModule'
       ]
       msgTo: 'summary'
       scopeTo: ['app_analysis_datalib']
@@ -67,6 +70,7 @@ module.exports = class AppMessageMap
         'app_analysis_powercalc',
         'app_analysis_classification',
         'app_analysis_stats'
+        'socrat_analysis_MyModule'
       ]
     ,
       msgFrom: 'data histogram'
@@ -77,6 +81,7 @@ module.exports = class AppMessageMap
         'app_analysis_charts',
         'app_analysis_classification',
         'app_analysis_reliability'
+        'socrat_analysis_MyModule'
       ]
       msgTo: 'histogram'
       scopeTo: ['app_analysis_datalib']
@@ -91,6 +96,7 @@ module.exports = class AppMessageMap
         'app_analysis_charts',
         'app_analysis_classification',
         'app_analysis_reliability'
+        'socrat_analysis_MyModule'
       ]
     #    ,
     #      msgFrom: 'upload csv'
@@ -120,6 +126,7 @@ module.exports = class AppMessageMap
         'app_analysis_classification',
         'app_analysis_modeler'
         'app_analysis_dimReduction'
+        'socrat_analysis_MyModule'
       ]
       msgTo: 'get table'
       scopeTo: ['app_analysis_database']
@@ -137,6 +144,7 @@ module.exports = class AppMessageMap
         'app_analysis_classification',
         'app_analysis_modeler'
         'app_analysis_dimReduction'
+        'socrat_analysis_MyModule'
       ]
     ]
 
